@@ -23,7 +23,7 @@ defmodule Monetized.Mixfile do
       {:ex_doc,  "~> 0.11.5", only: :dev},
       {:earmark, "~> 0.2.1",  only: :dev},
       {:inch_ex, "~> 0.5.1",  only: :docs},
-      {:decimal, "~> 1.3"},
+      {:decimal, github: "ericmj/decimal", ref: "8ebe1f8273c26d48339956d71a11ed1af0b7e00d"},
       {:ecto,    "~> 2.1.3"},
       {:benchfella, "~> 0.3.2", only: :bench},
       {:poison, "~> 1.5 or ~> 2.0", optional: true},
